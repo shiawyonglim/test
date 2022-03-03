@@ -1,0 +1,170 @@
+body {
+  background: #161515;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+
+.loginForm h1 {
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+.container input[type="email"] {
+  animation-delay: 0.3s;
+}
+.container input[type="password"] {
+  animation-delay: 0.6s;
+}
+
+.container input[type="email"],
+.container input[type="password"] {
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.5px;
+  display: block;
+  background: linear-gradient(to top, #1c4e83, #64174d);
+  height: 35px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.container input[type="email"]:focus,
+.container input[type="password"]:focus {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+.container {
+  width: auto;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translatex(-50%);
+}
+
+label input[type="checkbox"] {
+  display: none;
+}
+
+label span {
+  margin-top: 10px;
+  height: 13px;
+  width: 13px;
+  border: 2px solid #59617e;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  animation-delay: 0.9s;
+}
+
+.remember {
+  font-size: 19px;
+  cursor: pointer;
+  color: white;
+  margin-left: 20px;
+  margin-right: 0;
+  margin-top: 6px;
+  text-align: left;
+  animation-delay: 0.9s;
+  display: block;
+  width: 50%;
+  position: fixed;
+}
+
+[type="checkbox"]:checked + span::before {
+  font-family: FontAwesome;
+  font-size: 16px;
+  content: "\f00c";
+  position: absolute;
+  top: -2px;
+  color: #896cec;
+  left: -1px;
+  width: 13px;
+}
+
+.forgot {
+  float: right;
+  margin: 0;
+  padding: 0%;
+  font-size:18px;
+  color: #5c7fda;
+  position: absolute;
+  margin-top: 6px;
+  animation-delay: 1.2s;
+}
+.newacc {
+  position: absolute;
+  top: 420px;
+  left: 14%;
+  font-size: 18px;
+  animation-delay: 1.8s;
+  color: #5c7fda;
+}
+
+.signin {
+  position: absolute;
+  display: block;
+  margin: 0%;
+  padding: 0%;
+  border: 0;
+  background: #7f5fe1;
+  border-radius: 100px;
+  width: 90%;
+  text-align: center;
+  top: 320px;
+  left: 20px;
+  text-decoration: none;
+  color: #fff;
+  animation-delay: 1.5s;
+}
+
+.signin:hover{
+  background: #5c7fda;
+  text-decoration: none;
+}
+
+.hl{
+  border-bottom: 2px solid rgb(138, 138, 138) ;
+  width: 300px;
+  margin-top: 150px;
+  transition: all 3s ease;
+}
+
+
